@@ -7,7 +7,7 @@ import javax.jms.*;
 
 public class ThroughputTestApp {
 
-    public static final int MSG_COUNT = 1000;
+    public static final int MSG_COUNT = 10000;
     public static final int MSG_COUNT_LARGE = 1_000_000;
 
     public static void main(String[] args) throws Exception {
